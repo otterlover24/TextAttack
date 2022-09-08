@@ -46,7 +46,10 @@ There are lots of reasons to use TextAttack:
 You should be running Python 3.6+ to use this package. A CUDA-compatible GPU is optional but will greatly improve code speed. TextAttack is available through pip:
 
 ```bash
-pip install textattack
+# Original
+# pip install textattack
+# OL modification
+pip install textattack tensorflow_text --ignore-installed certifi
 ```
 
 Once TextAttack is installed, you can run it via command-line (`textattack ...`)
